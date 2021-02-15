@@ -190,7 +190,7 @@
     "VM Password": {
             "type": "string",
             "Value": "Password.1!!"
-  }
+  },
     "SQL Username": {
             "type": "string",
             "Value": "sqladmin"
