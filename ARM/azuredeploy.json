@@ -173,11 +173,20 @@
           "cosmosDBDatabaseName":{
             "value": "[parameters('covid19DatabaseName')]"
           }
-        }
+        },
+          "outputs": {
+      "vmip": {
+            "type": "string",
+            ""value": "[reference(variables('SQLPublicIpAddressName')).ipAddress]"
+  },
       }
     }
   ],
   "outputs": {
+      "Covid19 VM IP": {
+            "type": "string",
+            "Value": "[reference('deploySqlVmLinkedTemplate').outputs.vmip.value]"
+  },
         
   "VM Username": {
             "type": "string",
