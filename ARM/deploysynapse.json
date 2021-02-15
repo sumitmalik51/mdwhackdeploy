@@ -245,7 +245,18 @@
             "properties": {
                 "publicAccess": "None"
             }
-        }
+        } ,
+        {
+            "type": "Microsoft.Authorization/roleAssignments",
+            "name": "[guid(resourceGroup().id)]",
+            "apiVersion": "2020-04-01-preview",
+            "dependsOn": [
+                "[concat('Microsoft.Synapse/workspaces/', variables('ohmdw-synapse-Name'))]"
+            ],
+            "properties": {
+                "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', 'ba92f5b4-2d11-453d-a403-e96b0029c9fe')]",
+                "principalId": "[reference(concat('Microsoft.Synapse/workspaces/', variables('ohmdw-synapse-Name')), '2019-06-01-preview', 'Full').identity.principalId]"
+            }
     ],
     "outputs": {}
 }
