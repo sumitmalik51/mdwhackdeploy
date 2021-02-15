@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "cloudFictitiousCompanyNamePrefix": {
+      "value": "covid19"
+    },
+    "location": {
+      "value": "eastus"
+    },
+    "vmAdminUserName": {
+      "value": "vmadmin"
+    },
+    "vmAdminPassword": {
+      "value": ""
+    },
+    "sqlAdminLogin": {
+      "value": "sqladmin"
+    },
+    "sqlAdminLoginPassword": {
+      "value": ""
+    },
+    "covid19DacPacPath": {
+      "value": "https://mydevblobstoragechb.blob.core.windows.net/covid19mdwoh/covid19.bacpac"
+    },
+    "covid19BackupStorageAccountName": {
+      "value": "mydevblobstoragechb"
+    },
+    "covid19BackupStorageContainerName": {
+      "value": "covid19mdwoh"
+    },
+    "covid19BackupStorageContainerSAS": {
+      "value": ""
+    },
+    "covid19BackupFileName": {
+      "value": "covid19.bak"
+    },
+    "covid19DatabaseName": {
+      "value": "covid19"
+    }
+  }
+}
