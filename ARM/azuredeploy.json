@@ -177,5 +177,27 @@
       }
     }
   ],
-  "outputs": {}
+  "outputs": {
+       
+    "Covid19 VM IP": {
+            "type": "string",
+            "Value": "[reference('deploySqlVmLinkedTemplate').outputs.VM IP address.value]"
+  },
+  "VM Username": {
+            "type": "string",
+            "Value": "vmadmin"
+  },
+    "VM Password": {
+            "type": "string",
+            "Value": "Password.1!!"
+  }
+    "SQL Username": {
+            "type": "string",
+            "Value": "sqladmin"
+  },
+  "SQL Password": {
+            "type": "string",
+            "Value": "Password.1!!"
+  }
+  }
 }
