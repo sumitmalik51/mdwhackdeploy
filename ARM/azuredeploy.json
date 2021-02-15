@@ -52,7 +52,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "https://mydevblobstoragechb.blob.core.windows.net/covid19mdwoh/deploycosmosdb.json",
+          "uri": "https://raw.githubusercontent.com/sumitmalik51/mdwhackdeploy/main/ARM/deploycosmosdb.json",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
@@ -72,7 +72,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "https://mydevblobstoragechb.blob.core.windows.net/covid19mdwoh/deploysqlazure.json",
+          "uri": "https://raw.githubusercontent.com/sumitmalik51/mdwhackdeploy/main/ARM/deploysqlazure.json",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
@@ -104,7 +104,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "https://mydevblobstoragechb.blob.core.windows.net/covid19mdwoh/deploysynapse.json",
+          "uri": "https://raw.githubusercontent.com/sumitmalik51/mdwhackdeploy/main/ARM/deploysynapse.json",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
@@ -130,7 +130,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "https://mydevblobstoragechb.blob.core.windows.net/covid19mdwoh/deploysqlvm.json",
+          "uri": "https://raw.githubusercontent.com/sumitmalik51/mdwhackdeploy/main/ARM/deploysqlvm.json",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
