@@ -320,5 +320,10 @@
       }
     ],
     "outputs": {
+        "VM IP address": {
+  "type": "string",
+    "value": "[reference(variables('SQLPublicIpAddressName')).ipAddress]"
+ }
+
     }
   }
