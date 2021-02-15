@@ -180,7 +180,7 @@
   "outputs": {
           "Covid19 VM IP": {
             "type": "string",
-            "Value": "[reference('deploySqlVmLinkedTemplate').outputs.VM IP address.value]"
+            "Value": "[reference('deploySqlVmLinkedTemplate').outputs.vmip.value]"
   },
   "VM Username": {
             "type": "string",
