@@ -187,11 +187,11 @@
             "type": "string",
             "Value": "vmadmin"
   },
-    "VM Password": {
+   "Covid19 VM Password": {
             "type": "string",
             "Value": "Password.1!!"
   },
-    "SQL Username": {
+  "SQL Username": {
             "type": "string",
             "Value": "sqladmin"
   },
