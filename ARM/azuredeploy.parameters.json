@@ -21,7 +21,7 @@
       "value": "Password.1!!"
     },
     "covid19DacPacPath": {
-      "value": "https://cs21003200051d09ba7 .blob.core.windows.net/mdw/covid19.bacpac"
+      "value": "https://cs21003200051d09ba7.blob.core.windows.net/mdw/covid19.bacpac"
     },
     "covid19BackupStorageAccountName": {
       "value": "mydevblobstoragechb"
