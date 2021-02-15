@@ -37,7 +37,7 @@
         {
             "name": "[concat(parameters('namePrefix'), '-cosmosdb-', uniqueString(resourceGroup().id))]",
             "type": "Microsoft.DocumentDB/databaseAccounts",
-            "apiVersion": "2015-04-08",
+            "apiVersion": "2017-05-10",
             "location": "[parameters('location')]",
             "tags": {},
             "kind": "GlobalDocumentDB",
