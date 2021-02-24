@@ -160,7 +160,7 @@
         "location": "[variables('location')]",
         "dependsOn": [
           "[resourceId('Microsoft.Compute/virtualMachines', variables('SQLVirtualMachineName'))]",
-          "microsoft.antimalware-windows-20190215121510"
+          
         ],
         "properties": {
           "virtualMachineResourceId": "[resourceId('Microsoft.Compute/virtualMachines', variables('SQLVirtualMachineName'))]",
