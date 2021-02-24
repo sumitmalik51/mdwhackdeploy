@@ -153,44 +153,7 @@
           }
         ]
       },
-      {
-        "name": "microsoft.antimalware-windows-20190215121510",
-        "apiVersion": "2015-01-01",
-        "type": "Microsoft.Resources/deployments",
-        "properties": {
-          "mode": "incremental",
-          "templateLink": {
-            "uri": "https://gallery.azure.com/artifact/20161101/microsoft.antimalware-windows-arm.1.0.2/Artifacts/MainTemplate.json"
-          },
-          "parameters": {
-            "vmName": {
-              "value": "[variables('SQLVirtualMachineName')]"
-            },
-            "location": {
-              "value": "[variables('location')]"
-            },
-            "RealtimeProtectionEnabled": {
-              "value": "true"
-            },
-            "ScheduledScanSettingsIsEnabled": {
-              "value": "false"
-            },
-            "ScheduledScanSettingsScanType": {
-              "value": "Quick"
-            },
-            "ScheduledScanSettingsDay": {
-              "value": "7"
-            },
-            "ScheduledScanSettingsTime": {
-              "value": "120"
-            }
-          }
-        },
-        "dependsOn": [
-          "[concat('Microsoft.Compute/virtualMachines/', variables('SQLVirtualMachineName'))]"
-        ]
-      },
-      {
+            {
         "name": "[variables('SQLVirtualMachineName')]",
         "type": "Microsoft.SqlVirtualMachine/SqlVirtualMachines",
         "apiVersion": "2017-03-01-preview",
