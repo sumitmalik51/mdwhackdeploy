@@ -12,7 +12,7 @@
       "value": "vmadmin"
     },
     "vmAdminPassword": {
-      "value": "Password.1!!"
+      "value": "Password.1!! "
     },
     "sqlAdminLogin": {
       "value": "sqladmin"
@@ -20,8 +20,8 @@
     "sqlAdminLoginPassword": {
       "value": "Password.1!!"
     },
-   "covid19DacPacPath": {
-      "value": "https://mydevblobstoragechb.blob.core.windows.net/mdw/covid19.bacpac"
+    "covid19DacPacPath": {
+      "value": "https://mydevblobstoragechb.blob.core.windows.net/covid19mdwoh/covid19.bacpac"
     },
     "covid19BackupStorageAccountName": {
       "value": "mydevblobstoragechb"
